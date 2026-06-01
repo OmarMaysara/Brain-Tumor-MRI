@@ -1,0 +1,12 @@
+Test Accuracy: 0.8549
+
+              precision    recall  f1-score   support
+
+      glioma     0.8993    0.8272    0.8617       162
+     healthy     0.8655    0.9650    0.9125       200
+  meningioma     0.7586    0.6667    0.7097       165
+   pituitary     0.8817    0.9318    0.9061       176
+
+    accuracy                         0.8549       703
+   macro avg     0.8513    0.8477    0.8475       703
+weighted avg     0.8523    0.8549    0.8516       703
