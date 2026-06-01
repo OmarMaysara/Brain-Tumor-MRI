@@ -1,0 +1,2 @@
+backbone,total_params,gflops,epochs_trained,batch_size,lr,img_size,test_samples,overall_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+EfficientNetV2-S,20182612,5.8,15,8,0.001,224,703,0.99,0.99,0.9897,0.9898,0.99
