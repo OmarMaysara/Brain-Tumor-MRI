@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom additions for AI Project
+data/
+weights/
+*.pt
+*.pth
+*.onnx
+*.h5
