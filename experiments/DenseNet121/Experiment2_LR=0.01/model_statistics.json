@@ -1,0 +1,34 @@
+{
+  "model": "DenseNet-121",
+  "input_size": [
+    224,
+    224
+  ],
+  "num_classes": 4,
+  "layer_distribution": {
+    "convolutional_layers": 120,
+    "batch_norm_layers": 121,
+    "fc_layers": 1,
+    "pooling_layers": 4,
+    "relu_activations": 120,
+    "dense_blocks": 4,
+    "transition_blocks": 3,
+    "total_dense_layers": 58
+  },
+  "dense_block_config": {
+    "Dense Block 1 (k=32)": 6,
+    "Dense Block 2 (k=32)": 12,
+    "Dense Block 3 (k=32)": 24,
+    "Dense Block 4 (k=32)": 16
+  },
+  "parameters": {
+    "total": 6957956,
+    "trainable": 6957956,
+    "non_trainable": 0,
+    "backbone": 6953856,
+    "classifier_head": 4100,
+    "model_size_mb": 26.54
+  },
+  "gflops": 5.792,
+  "macs": "2.896G"
+}
